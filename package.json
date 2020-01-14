@@ -1,0 +1,14 @@
+{
+  "name": "weektemperature",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "WeekTemperature.js",
+  "scripts": {
+    "start": "node WeekTemperature.js"
+  },
+  "author": "Eugene",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
