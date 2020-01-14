@@ -38,7 +38,6 @@ function dayWithNearestTemp(weekTemperatureArray) {
   let weekSumTemperature = weekTemperatureArray.reduce((a,b) => a + b.temperature, 0);
   let averageTemperature = weekSumTemperature / (weekTemperatureArray.length);
   var newArray = [];
-  console.log(averageTemperature)
 
   for (let day in weekTemperatureArray) {
     let diff = Math.abs(weekTemperatureArray[day].temperature - averageTemperature)
@@ -49,7 +48,6 @@ function dayWithNearestTemp(weekTemperatureArray) {
   newArray.push(newDict)
 }
   let sortedArray =  newArray.sort((a,b) => a.temperature - b.temperature)
-  console.log(sortedArray)
   let nearestFirstFoundDay = sortedArray[0].name
   console.log("Target Day: " + nearestFirstFoundDay)
   return nearestFirstFoundDay
