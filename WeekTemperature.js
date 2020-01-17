@@ -54,3 +54,4 @@ function dayWithNearestTemp(weekTemperatureArray) {
 }
 
 dayWithNearestTemp(weekArray)
+//test
