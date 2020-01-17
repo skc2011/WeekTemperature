@@ -41,11 +41,11 @@ function dayWithNearestTemp(weekTemperatureArray) {
 
   for (let day in weekTemperatureArray) {
     let diff = Math.abs(weekTemperatureArray[day].temperature - averageTemperature)
-    let newDict = {
+    let newDictionary = {
     name: weekTemperatureArray[day].name,
     temperature: diff
    }
-  newArray.push(newDict)
+  newArray.push(newDictionary)
 }
   let sortedArray =  newArray.sort((a,b) => a.temperature - b.temperature)
   let nearestFirstFoundDay = sortedArray[0].name
