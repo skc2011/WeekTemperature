@@ -1,2 +1,2 @@
-WeekTemperature
-test
+WeekTemperature test task
+Finds average temperature of the week and then a day that has nearest temperature value to average.
