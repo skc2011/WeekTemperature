@@ -10,7 +10,8 @@
     "express": "^4.17.1"
   },
   "scripts": {
-    "start": "node WeekTemperature.js"
+    "start": "node Project/WeekTemperature.js",
+    "test": "protractor conf.js"
   },
   "author": "Eugene",
   "license": "ISC"
