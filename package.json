@@ -2,13 +2,16 @@
   "name": "weektemperature",
   "version": "1.0.0",
   "description": "test task",
-  "main": "WeekTemperature.js",
+  "main": "conf.js",
+  "dependencies": {
+    "jasmine": "^3.5.0",
+    "protractor": "^5.4.2",
+    "protractor-react-selector": "^1.0.8",
+    "express": "^4.17.1"
+  },
   "scripts": {
     "start": "node WeekTemperature.js"
   },
   "author": "Eugene",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "license": "ISC"
 }
