@@ -1,5 +1,5 @@
 var WeekTemperature = function () {
-/*         SET #1
+/*         SET #1 
 let weekArray = [
     {name: "Monday", temperature: 1},
     {name: "Tuesday", temperature: 2},
